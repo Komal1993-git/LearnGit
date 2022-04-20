@@ -169,8 +169,7 @@ To https://github.com/Komal1993-git/LearnGit.git
 
 **Use git checkout <commit Id> <file name>
 
-C:\Users\vijay\Documents\LearnGit>**git checkout 5cb1cb21e8d6ddb741c3fddeaf6c0dbb7**
-c52b2d7 README.md
+C:\Users\vijay\Documents\LearnGit>**git checkout 5cb1cb21e8d6ddb741c3fddeaf6c0dbb7c52b2d7 README.md**
 
 Updated 1 path from a2e22da
 
