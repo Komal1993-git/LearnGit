@@ -1,4 +1,4 @@
-# LearnGit 
+﻿# LearnGit 
 C:\Users\vijay>git --version
 git version 2.35.1.windows.2
 
@@ -140,5 +140,55 @@ remote:
 To https://github.com/Komal1993-git/LearnGit.git
  * [new branch]      b1 -> b1
 branch 'b1' set up to track 'origin/b1'.
+
+
+# Reverting changes made
+
+*You have to copy commit ID to revert the change. Use git log command for this.
+
+C:\Users\vijay\Documents\LearnGit>git revert af489ca3d19fd6afc0101616e342bd3bbc4
+02b67
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+C:\Users\vijay\Documents\LearnGit>git push
+
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 357 bytes | 119.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Komal1993-git/LearnGit.git
+   e6e2eda..9119394  master -> master
+
+# Added changed that committed before
+
+**Use git checkout <commit Id> <file name>
+
+C:\Users\vijay\Documents\LearnGit>git checkout 5cb1cb21e8d6ddb741c3fddeaf6c0dbb7
+c52b2d7 README.md
+
+Updated 1 path from a2e22da
+
+C:\Users\vijay\Documents\LearnGit>git status
+
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+C:\Users\vijay\Documents\LearnGit>git add .
+
+C:\Users\vijay\Documents\LearnGit>git commit -m "Edit README after reverting fro
+m deletion"
+
+C:\Users\vijay\Documents\LearnGit>git push -u origin master
 
 
