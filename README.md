@@ -1,12 +1,15 @@
-"# LearnGit" 
+# LearnGit 
 C:\Users\vijay>git --version
 git version 2.35.1.windows.2
 
 ** Create README file in LearnGit folder
+
 C:\Users\vijay\Documents\LearnGit>echo "# LearnGit" >> README.md
 
 **Initialize git
+
 C:\Users\vijay\Documents\LearnGit>git init
+
 Initialized empty Git repository in C:/Users/vijay/Documents/LearnGit/.git/
 
 **It will show untracked files
@@ -32,7 +35,7 @@ to set your account's default identity.
 Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'vijay@VASTUNIRMAN.(none)')
 
-C:\Users\vijay\Documents\LearnGit> git config --global user.email "komalkumbhar1993@gmail.com” 
+C:\Users\vijay\Documents\LearnGit> git config --global user.email "komalkumbhar1993@gmail.comâ€ 
 C:\Users\vijay\Documents\LearnGit> git config --global user.name "Komal Kumbhar"
 C:\Users\vijay\Documents\LearnGit>git commit -m "add readme file"
 [master (root-commit) b651fc3] add readme file
@@ -58,7 +61,7 @@ fatal: Authentication failed for 'https://github.com/Komal1993-git/LearnGit.git/
 
 Solution: 
 Create Personal Access Token on GitHub From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta Now follow below method based on your machine: 
-For Windows OS ? Go to Credential Manager from Control Panel => Windows Credentials => find github.com => Edit => On Password replace with with your GitHub Personal Access Token => You are Done If you don’t find github.com => Click on Add a generic credential => Internet address will be github.com and you need to type in your username and password will be your GitHub Personal Access Token => Click Ok and you are done
+For Windows OS ? Go to Credential Manager from Control Panel => Windows Credentials => find github.com => Edit => On Password replace with with your GitHub Personal Access Token => You are Done If you donâ€™t find github.com => Click on Add a generic credential => Internet address will be github.com and you need to type in your username and password will be your GitHub Personal Access Token => Click Ok and you are done
 
 C:\Users\vijay\Documents\LearnGit>git push -u origin master
 
