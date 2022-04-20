@@ -146,7 +146,7 @@ branch 'b1' set up to track 'origin/b1'.
 
 *You have to copy commit ID to revert the change. Use git log command for this.
 
-C:\Users\vijay\Documents\LearnGit>git revert af489ca3d19fd6afc0101616e342bd3bbc4
+C:\Users\vijay\Documents\LearnGit>**git revert af489ca3d19fd6afc0101616e342bd3bbc4**
 02b67
 
 On branch master
@@ -169,7 +169,7 @@ To https://github.com/Komal1993-git/LearnGit.git
 
 **Use git checkout <commit Id> <file name>
 
-C:\Users\vijay\Documents\LearnGit>git checkout 5cb1cb21e8d6ddb741c3fddeaf6c0dbb7
+C:\Users\vijay\Documents\LearnGit>**git checkout 5cb1cb21e8d6ddb741c3fddeaf6c0dbb7**
 c52b2d7 README.md
 
 Updated 1 path from a2e22da
