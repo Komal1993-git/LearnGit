@@ -8,7 +8,7 @@ C:\Users\vijay\Documents\LearnGit>echo "# LearnGit" >> README.md
 
 **Initialize git
 
-C:\Users\vijay\Documents\LearnGit>git init
+C:\Users\vijay\Documents\LearnGit>**git init**
 
 Initialized empty Git repository in C:/Users/vijay/Documents/LearnGit/.git/
 
@@ -19,10 +19,11 @@ No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         README.md
+  
 nothing added to commit but untracked files present (use "git add" to track)
 
 **Add file on git
-C:\Users\vijay\Documents\LearnGit>git add README.md
+C:\Users\vijay\Documents\LearnGit>**git add README.md**
 
 **commit changes (save)
 C:\Users\vijay\Documents\LearnGit>git commit -m "add readme file"
